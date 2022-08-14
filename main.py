@@ -1,4 +1,8 @@
-from webapp.data.personalschedule import createblank
-createblank.create()
+from webapp import createblank
+from webapp import ripdata
+import time
+import config 
 
-print("test2")
+while True:
+  ripdata.run()
+  time.sleep(config.ripdelay)
