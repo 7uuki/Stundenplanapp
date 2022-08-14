@@ -1,0 +1,112 @@
+{% extends "home.html"%}
+
+
+{% block content %}
+Values {{stand}}<p>
+  <body bgcolor="#F0F0F0" onload="run()">
+  <button onclick="test()">Click Me</button>
+  
+  <CENTER>
+  <form name="Filter" method="post">
+      <select id="Klasse" onchange="grade(this)" class="selectgrade">
+        {% for x in grades %}
+            <option value='{{x}}'>{{x}}</option>
+        {% endfor %}  
+      </select>
+      <select id="Tag" onchange="day(this)" class="selectgrade">
+        {% for x in alltables %}
+          <option value='{{x}}'>{{x}}</option>
+        {% endfor %}  
+          
+      </select>  
+  </form>
+
+  <font size="3" face="Arial">
+  <div class="mon_title">{{date}}</div>
+
+  {%for i in range(1)%}
+    <table class="mon_list" >
+    <tr class='list' id="header">
+    <th class="list" align="center">Stunde</th>
+    <th class="list" align="center">Klasse</th>
+    <th class="list" align="center">Vertreter/in</th>
+    <th class="list" align="center">(Lehrer/in)</th>
+    <th class="list" align="center">Raum</th>
+    <th class="list" align="center">(Fach)</th>
+    <!--<th class="list" align="center" width='23'>Text</th>-->
+    <th class="list" align="center">Befund</th>
+    </tr>
+    {% for row in output_data %}
+    <tr class='{{row[2]}}' id="values">
+      <td class="list" align="center">{{row[1]}}</td>
+      <td class="list" align="center">{{row[2]}}</td> 
+      <td class="list" align="center">{{row[3]}}</td> 
+      <td class="list" align="center">{{row[4]}}</td> 
+      <td class="list" align="center">{{row[5]}}</td> 
+      <td class="list" align="center">{{row[6]}}</td> 
+      <!--<td class="list" align="center">{{row[7]}}</td>-->
+      <td class="list" align="center">{{row[8]}}</td> 
+    </tr>
+    {% endfor %}   
+    <p class='empty' align="center" id='nodata' >Keine Daten!</p>
+
+    </table>
+
+    <script>
+      function showdata(filter){
+        var elements
+        //TODO: 6a, 6b
+        if(filter == 'Alle'){
+          elements = document.querySelectorAll('tr[id=values]');   
+        }else{
+          elements = document.getElementsByClassName(filter);
+          //TODO: elements = document.getElementsByClassName('NK'); 
+        }
+        if(elements.length==0){
+          hideall()
+          document.getElementById("nodata").style.display = "block" 
+          document.getElementById("header").style.display = "none" 
+        }else{
+          hideall()
+          document.getElementById("nodata").style.display = "none"
+          document.getElementById("header").style.display = "table-row" 
+          for(var i = 0; i < elements.length; i++) {
+            elements[i].style.display = "table-row";  
+          }
+        }  
+      }
+        
+      function hideall(){
+        const selectors = document.querySelectorAll('tr[id=values]');
+        for(var i = 0; i < selectors.length; i++) {
+          selectors[i].style.display  = "none";
+        }
+      }
+      function showall(){
+        const selectors = document.querySelectorAll('tr[id=values]');
+        for(var i = 0; i < selectors.length; i++) {
+          selectors[i].style.display  = "table-row";    
+        }
+      }
+        
+      function grade(selectObject) {
+        //window.alert(selectObject.value);
+        window.location.href='/'+selectObject.value+ '/'+'{{chosentable}}';
+        showdata(selectObject.value)
+      }
+        
+      function day(selectObject) {
+        //window.alert(selectObject.value);
+        window.location.href=selectObject.value;
+      }
+      function run(){
+        //window.alert(chosengrade);
+        showdata('{{chosengrade}}')
+        document.querySelector('option[value="{{chosengrade}}"]').selected = "true"
+        document.querySelector('option[value="{{chosentable}}"]').selected = "true"  
+      }
+      </script>
+  {%endfor%}
+
+{% endblock %}  
+

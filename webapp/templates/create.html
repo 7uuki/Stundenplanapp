@@ -1,0 +1,48 @@
+{% extends "home.html"%}
+
+{% block content %}
+<form method = "post" action="#" >
+    <h1>Plan</h1>
+    
+    <p>Fach</p>
+    <select name="fach" onchange="grade(this)" class="selectfach">
+        {% for x in fächer %}
+            <option value='{{x}}'>{{x}}</option>
+        {% endfor %}  
+    </select>
+   
+    <p>Woche</p>
+        <input type="radio" id="a" name="woche" value="a" >
+        <label for="a">A</label>
+        <input type="radio" id="b" name="woche" value="b">
+        <label for="b">B</label>
+        <input type="radio" id="ab" name="woche" value="ab" checked>
+        <label for="abt">A&B</label>
+    <p>Block & Tag</p>
+    <select name="block" onchange="grade(this)" class="selectblock">
+        {% for x in blöcke %}
+            <option value='{{x}}'>{{x}}</option>
+        {% endfor %}  
+    </select>
+        <select name="tag" onchange="grade(this)" class="selecttag">
+            {% for x in tage %}
+                <option value='{{x}}'>{{x}}</option>
+            {% endfor %}  
+        </select>
+    <p>Raum</p>
+    <p><input type = "text" name = "raum" /></p>
+    <p><input type = "submit" value = "submit" /></p>   
+    
+</form>
+<button class="create" onclick="test()">✎ Fach hinzufügen</button>
+<script>
+    function test(){
+        window.location.replace("create/fach");
+    }
+</script>
+
+{% endblock %}
+    
+</body>
+ 
+</html>
