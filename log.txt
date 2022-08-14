@@ -1,0 +1,772 @@
+-------[(18:56:48) 14.08.2022 ]-------
+[18:56:48:832]: connection opend: daten , created cursor
+[18:56:48:988]: pulled Website: .../f1/001.htm
+[18:56:49:333]: created: table(manger)
+[18:56:49:441]: created: table(15.8.2022)
+[18:56:49:566]: pulled Website: .../f1/001.htm
+[18:56:49:584]: filled: table(15.8.2022) with f1
+[18:56:49:584]: filled: table(manger/15.8.2022) with f1
+[18:56:49:701]: pulled Website: .../f2/001.htm
+[18:56:49:714]: found: table(manager)
+[18:56:49:714]: created: table(16.8.2022)
+[18:56:49:830]: pulled Website: .../f2/001.htm
+[18:56:49:848]: filled: table(16.8.2022) with f2
+[18:56:49:848]: filled: table(manger/16.8.2022) with f2
+[18:56:49:941]: connection commited and closed
+
+-------[(19:00:29) 14.08.2022 ]-------
+[19:00:29:204]: connection opend: daten , created cursor
+[19:00:29:343]: pulled Website: .../f1/001.htm
+[19:00:29:358]: found: table(manager)
+[19:00:29:358]: found: table(15.8.2022)
+[19:00:29:474]: droped: table(15.8.2022)
+[19:00:29:574]: recreated: table(15.8.2022)
+[19:00:29:688]: pulled Website: .../f1/001.htm
+[19:00:29:706]: filled: table(15.8.2022) with f1
+[19:00:29:707]: updated: table(manger/15.8.2022) with f1
+[19:00:29:826]: pulled Website: .../f2/001.htm
+[19:00:29:840]: found: table(manager)
+[19:00:29:841]: found: table(16.8.2022)
+[19:00:29:841]: droped: table(16.8.2022)
+[19:00:29:841]: recreated: table(16.8.2022)
+[19:00:29:965]: pulled Website: .../f2/001.htm
+[19:00:29:984]: filled: table(16.8.2022) with f2
+[19:00:29:984]: updated: table(manger/16.8.2022) with f2
+[19:00:30:099]: connection commited and closed
+
+-------[(19:02:09) 14.08.2022 ]-------
+[19:02:09:179]: connection opend: daten , created cursor
+[19:02:09:318]: pulled Website: .../f1/001.htm
+[19:02:09:333]: found: table(manager)
+[19:02:09:333]: found: table(15.8.2022)
+[19:02:09:423]: droped: table(15.8.2022)
+[19:02:09:539]: recreated: table(15.8.2022)
+[19:02:09:656]: pulled Website: .../f1/001.htm
+[19:02:09:674]: filled: table(15.8.2022) with f1
+[19:02:09:675]: updated: table(manger/15.8.2022) with f1
+[19:02:09:799]: pulled Website: .../f2/001.htm
+[19:02:09:811]: found: table(manager)
+[19:02:09:811]: found: table(16.8.2022)
+[19:02:09:812]: droped: table(16.8.2022)
+[19:02:09:812]: recreated: table(16.8.2022)
+[19:02:09:941]: pulled Website: .../f2/001.htm
+[19:02:09:963]: filled: table(16.8.2022) with f2
+[19:02:09:963]: updated: table(manger/16.8.2022) with f2
+[19:02:10:256]: connection commited and closed
+
+-------[(19:03:49) 14.08.2022 ]-------
+[19:03:49:681]: connection opend: daten , created cursor
+[19:03:49:860]: pulled Website: .../f1/001.htm
+[19:03:49:877]: found: table(manager)
+[19:03:49:877]: found: table(15.8.2022)
+[19:03:50:003]: droped: table(15.8.2022)
+[19:03:50:095]: recreated: table(15.8.2022)
+[19:03:50:213]: pulled Website: .../f1/001.htm
+[19:03:50:232]: filled: table(15.8.2022) with f1
+[19:03:50:233]: updated: table(manger/15.8.2022) with f1
+[19:03:50:359]: pulled Website: .../f2/001.htm
+[19:03:50:373]: found: table(manager)
+[19:03:50:373]: found: table(16.8.2022)
+[19:03:50:373]: droped: table(16.8.2022)
+[19:03:50:373]: recreated: table(16.8.2022)
+[19:03:50:493]: pulled Website: .../f2/001.htm
+[19:03:50:510]: filled: table(16.8.2022) with f2
+[19:03:50:511]: updated: table(manger/16.8.2022) with f2
+[19:03:50:628]: connection commited and closed
+
+-------[(19:04:12) 14.08.2022 ]-------
+[19:04:12:515]: connection opend: daten , created cursor
+[19:04:12:667]: pulled Website: .../f1/001.htm
+[19:04:12:681]: found: table(manager)
+[19:04:12:681]: found: table(15.8.2022)
+[19:04:12:979]: droped: table(15.8.2022)
+[19:04:13:062]: recreated: table(15.8.2022)
+[19:04:13:178]: pulled Website: .../f1/001.htm
+[19:04:13:196]: filled: table(15.8.2022) with f1
+[19:04:13:197]: updated: table(manger/15.8.2022) with f1
+[19:04:13:314]: pulled Website: .../f2/001.htm
+[19:04:13:326]: found: table(manager)
+[19:04:13:326]: found: table(16.8.2022)
+[19:04:13:327]: droped: table(16.8.2022)
+[19:04:13:327]: recreated: table(16.8.2022)
+[19:04:13:446]: pulled Website: .../f2/001.htm
+[19:04:13:463]: filled: table(16.8.2022) with f2
+[19:04:13:464]: updated: table(manger/16.8.2022) with f2
+[19:04:13:587]: connection commited and closed
+
+-------[(19:04:12) 14.08.2022 ]-------
+[19:04:18:597]: connection opend: daten , created cursor
+[19:04:18:717]: pulled Website: .../f1/001.htm
+[19:04:18:729]: found: table(manager)
+[19:04:18:729]: found: table(15.8.2022)
+[19:04:19:035]: droped: table(15.8.2022)
+[19:04:19:134]: recreated: table(15.8.2022)
+[19:04:19:251]: pulled Website: .../f1/001.htm
+[19:04:19:269]: filled: table(15.8.2022) with f1
+[19:04:19:269]: updated: table(manger/15.8.2022) with f1
+[19:04:19:387]: pulled Website: .../f2/001.htm
+[19:04:19:400]: found: table(manager)
+[19:04:19:400]: found: table(16.8.2022)
+[19:04:19:400]: droped: table(16.8.2022)
+[19:04:19:400]: recreated: table(16.8.2022)
+[19:04:19:512]: pulled Website: .../f2/001.htm
+[19:04:19:528]: filled: table(16.8.2022) with f2
+[19:04:19:529]: updated: table(manger/16.8.2022) with f2
+[19:04:19:635]: connection commited and closed
+
+-------[(19:06:07) 14.08.2022 ]-------
+[19:06:07:976]: connection opend: daten , created cursor
+[19:06:08:118]: pulled Website: .../f1/001.htm
+[19:06:08:133]: found: table(manager)
+[19:06:08:133]: found: table(15.8.2022)
+[19:06:08:246]: droped: table(15.8.2022)
+[19:06:08:354]: recreated: table(15.8.2022)
+[19:06:08:479]: pulled Website: .../f1/001.htm
+[19:06:08:497]: filled: table(15.8.2022) with f1
+[19:06:08:498]: updated: table(manger/15.8.2022) with f1
+[19:06:08:623]: pulled Website: .../f2/001.htm
+[19:06:08:639]: found: table(manager)
+[19:06:08:639]: found: table(16.8.2022)
+[19:06:08:640]: droped: table(16.8.2022)
+[19:06:08:640]: recreated: table(16.8.2022)
+[19:06:08:756]: pulled Website: .../f2/001.htm
+[19:06:08:778]: filled: table(16.8.2022) with f2
+[19:06:08:779]: updated: table(manger/16.8.2022) with f2
+[19:06:08:888]: connection commited and closed
+
+-------[(19:07:16) 14.08.2022 ]-------
+[19:07:16:267]: connection opend: daten , created cursor
+[19:07:16:412]: pulled Website: .../f1/001.htm
+[19:07:16:429]: found: table(manager)
+[19:07:16:429]: found: table(15.8.2022)
+[19:07:16:804]: droped: table(15.8.2022)
+[19:07:16:905]: recreated: table(15.8.2022)
+[19:07:17:024]: pulled Website: .../f1/001.htm
+[19:07:17:046]: filled: table(15.8.2022) with f1
+[19:07:17:047]: updated: table(manger/15.8.2022) with f1
+[19:07:17:169]: pulled Website: .../f2/001.htm
+[19:07:17:182]: found: table(manager)
+[19:07:17:182]: found: table(16.8.2022)
+[19:07:17:183]: droped: table(16.8.2022)
+[19:07:17:183]: recreated: table(16.8.2022)
+[19:07:17:297]: pulled Website: .../f2/001.htm
+[19:07:17:315]: filled: table(16.8.2022) with f2
+[19:07:17:316]: updated: table(manger/16.8.2022) with f2
+[19:07:17:413]: connection commited and closed
+
+-------[(19:07:32) 14.08.2022 ]-------
+[19:07:32:046]: connection opend: daten , created cursor
+[19:07:32:186]: pulled Website: .../f1/001.htm
+[19:07:32:202]: found: table(manager)
+[19:07:32:202]: found: table(15.8.2022)
+[19:07:32:324]: droped: table(15.8.2022)
+[19:07:32:416]: recreated: table(15.8.2022)
+[19:07:32:533]: pulled Website: .../f1/001.htm
+[19:07:32:552]: filled: table(15.8.2022) with f1
+[19:07:32:553]: updated: table(manger/15.8.2022) with f1
+[19:07:32:672]: pulled Website: .../f2/001.htm
+[19:07:32:686]: found: table(manager)
+[19:07:32:686]: found: table(16.8.2022)
+[19:07:32:686]: droped: table(16.8.2022)
+[19:07:32:686]: recreated: table(16.8.2022)
+[19:07:32:801]: pulled Website: .../f2/001.htm
+[19:07:32:818]: filled: table(16.8.2022) with f2
+[19:07:32:819]: updated: table(manger/16.8.2022) with f2
+[19:07:32:915]: connection commited and closed
+
+-------[(19:07:32) 14.08.2022 ]-------
+[19:07:37:933]: connection opend: daten , created cursor
+[19:07:38:053]: pulled Website: .../f1/001.htm
+[19:07:38:066]: found: table(manager)
+[19:07:38:066]: found: table(15.8.2022)
+[19:07:38:172]: droped: table(15.8.2022)
+[19:07:38:288]: recreated: table(15.8.2022)
+[19:07:38:413]: pulled Website: .../f1/001.htm
+[19:07:38:437]: filled: table(15.8.2022) with f1
+[19:07:38:438]: updated: table(manger/15.8.2022) with f1
+[19:07:38:554]: pulled Website: .../f2/001.htm
+[19:07:38:567]: found: table(manager)
+[19:07:38:567]: found: table(16.8.2022)
+[19:07:38:568]: droped: table(16.8.2022)
+[19:07:38:568]: recreated: table(16.8.2022)
+[19:07:38:685]: pulled Website: .../f2/001.htm
+[19:07:38:705]: filled: table(16.8.2022) with f2
+[19:07:38:705]: updated: table(manger/16.8.2022) with f2
+[19:07:38:821]: connection commited and closed
+
+-------[(19:07:32) 14.08.2022 ]-------
+[19:07:43:831]: connection opend: daten , created cursor
+[19:07:43:949]: pulled Website: .../f1/001.htm
+[19:07:43:962]: found: table(manager)
+[19:07:43:962]: found: table(15.8.2022)
+[19:07:44:620]: droped: table(15.8.2022)
+[19:07:44:719]: recreated: table(15.8.2022)
+[19:07:44:840]: pulled Website: .../f1/001.htm
+[19:07:44:859]: filled: table(15.8.2022) with f1
+[19:07:44:860]: updated: table(manger/15.8.2022) with f1
+[19:07:44:979]: pulled Website: .../f2/001.htm
+[19:07:44:992]: found: table(manager)
+[19:07:44:992]: found: table(16.8.2022)
+[19:07:44:992]: droped: table(16.8.2022)
+[19:07:44:992]: recreated: table(16.8.2022)
+[19:07:45:110]: pulled Website: .../f2/001.htm
+[19:07:45:127]: filled: table(16.8.2022) with f2
+[19:07:45:128]: updated: table(manger/16.8.2022) with f2
+[19:07:45:419]: connection commited and closed
+
+-------[(19:07:32) 14.08.2022 ]-------
+[19:07:50:429]: connection opend: daten , created cursor
+[19:07:50:551]: pulled Website: .../f1/001.htm
+[19:07:50:564]: found: table(manager)
+[19:07:50:565]: found: table(15.8.2022)
+[19:07:51:201]: droped: table(15.8.2022)
+[19:07:51:300]: recreated: table(15.8.2022)
+[19:07:51:419]: pulled Website: .../f1/001.htm
+[19:07:51:437]: filled: table(15.8.2022) with f1
+[19:07:51:438]: updated: table(manger/15.8.2022) with f1
+[19:07:51:556]: pulled Website: .../f2/001.htm
+[19:07:51:568]: found: table(manager)
+[19:07:51:568]: found: table(16.8.2022)
+[19:07:51:569]: droped: table(16.8.2022)
+[19:07:51:569]: recreated: table(16.8.2022)
+[19:07:51:687]: pulled Website: .../f2/001.htm
+[19:07:51:705]: filled: table(16.8.2022) with f2
+[19:07:51:706]: updated: table(manger/16.8.2022) with f2
+[19:07:51:833]: connection commited and closed
+
+-------[(19:07:32) 14.08.2022 ]-------
+[19:07:56:838]: connection opend: daten , created cursor
+[19:07:56:964]: pulled Website: .../f1/001.htm
+[19:07:56:978]: found: table(manager)
+[19:07:56:978]: found: table(15.8.2022)
+[19:07:57:273]: droped: table(15.8.2022)
+[19:07:57:365]: recreated: table(15.8.2022)
+[19:07:57:480]: pulled Website: .../f1/001.htm
+[19:07:57:501]: filled: table(15.8.2022) with f1
+[19:07:57:501]: updated: table(manger/15.8.2022) with f1
+[19:07:57:619]: pulled Website: .../f2/001.htm
+[19:07:57:632]: found: table(manager)
+[19:07:57:632]: found: table(16.8.2022)
+[19:07:57:633]: droped: table(16.8.2022)
+[19:07:57:633]: recreated: table(16.8.2022)
+[19:07:57:757]: pulled Website: .../f2/001.htm
+[19:07:57:773]: filled: table(16.8.2022) with f2
+[19:07:57:774]: updated: table(manger/16.8.2022) with f2
+[19:07:57:890]: connection commited and closed
+
+-------[(19:07:32) 14.08.2022 ]-------
+[19:08:02:907]: connection opend: daten , created cursor
+[19:08:03:028]: pulled Website: .../f1/001.htm
+[19:08:03:040]: found: table(manager)
+[19:08:03:040]: found: table(15.8.2022)
+[19:08:03:338]: droped: table(15.8.2022)
+[19:08:03:437]: recreated: table(15.8.2022)
+[19:08:03:548]: pulled Website: .../f1/001.htm
+[19:08:03:567]: filled: table(15.8.2022) with f1
+[19:08:03:568]: updated: table(manger/15.8.2022) with f1
+[19:08:03:684]: pulled Website: .../f2/001.htm
+[19:08:03:697]: found: table(manager)
+[19:08:03:697]: found: table(16.8.2022)
+[19:08:03:698]: droped: table(16.8.2022)
+[19:08:03:698]: recreated: table(16.8.2022)
+[19:08:03:816]: pulled Website: .../f2/001.htm
+[19:08:03:832]: filled: table(16.8.2022) with f2
+[19:08:03:833]: updated: table(manger/16.8.2022) with f2
+[19:08:03:929]: connection commited and closed
+
+-------[(19:08:32) 14.08.2022 ]-------
+[19:08:32:942]: connection opend: daten , created cursor
+[19:08:33:087]: pulled Website: .../f1/001.htm
+[19:08:33:102]: found: table(manager)
+[19:08:33:102]: found: table(15.8.2022)
+[19:08:33:211]: droped: table(15.8.2022)
+[19:08:33:318]: recreated: table(15.8.2022)
+[19:08:33:435]: pulled Website: .../f1/001.htm
+[19:08:33:454]: filled: table(15.8.2022) with f1
+[19:08:33:455]: updated: table(manger/15.8.2022) with f1
+[19:08:33:572]: pulled Website: .../f2/001.htm
+[19:08:33:585]: found: table(manager)
+[19:08:33:585]: found: table(16.8.2022)
+[19:08:33:586]: droped: table(16.8.2022)
+[19:08:33:586]: recreated: table(16.8.2022)
+[19:08:33:700]: pulled Website: .../f2/001.htm
+[19:08:33:718]: filled: table(16.8.2022) with f2
+[19:08:33:719]: updated: table(manger/16.8.2022) with f2
+[19:08:33:827]: connection commited and closed
+
+-------[(19:08:32) 14.08.2022 ]-------
+[19:08:38:831]: connection opend: daten , created cursor
+[19:08:38:954]: pulled Website: .../f1/001.htm
+[19:08:38:966]: found: table(manager)
+[19:08:38:967]: found: table(15.8.2022)
+[19:08:39:317]: droped: table(15.8.2022)
+[19:08:39:483]: recreated: table(15.8.2022)
+[19:08:39:604]: pulled Website: .../f1/001.htm
+[19:08:39:633]: filled: table(15.8.2022) with f1
+[19:08:39:635]: updated: table(manger/15.8.2022) with f1
+[19:08:39:758]: pulled Website: .../f2/001.htm
+[19:08:39:771]: found: table(manager)
+[19:08:39:771]: found: table(16.8.2022)
+[19:08:39:771]: droped: table(16.8.2022)
+[19:08:39:771]: recreated: table(16.8.2022)
+[19:08:39:899]: pulled Website: .../f2/001.htm
+[19:08:39:916]: filled: table(16.8.2022) with f2
+[19:08:39:917]: updated: table(manger/16.8.2022) with f2
+[19:08:40:066]: connection commited and closed
+
+-------[(19:08:32) 14.08.2022 ]-------
+[19:08:45:072]: connection opend: daten , created cursor
+[19:08:45:191]: pulled Website: .../f1/001.htm
+[19:08:45:204]: found: table(manager)
+[19:08:45:204]: found: table(15.8.2022)
+[19:08:45:581]: droped: table(15.8.2022)
+[19:08:45:681]: recreated: table(15.8.2022)
+[19:08:45:804]: pulled Website: .../f1/001.htm
+[19:08:45:822]: filled: table(15.8.2022) with f1
+[19:08:45:823]: updated: table(manger/15.8.2022) with f1
+[19:08:45:939]: pulled Website: .../f2/001.htm
+[19:08:45:953]: found: table(manager)
+[19:08:45:953]: found: table(16.8.2022)
+[19:08:45:953]: droped: table(16.8.2022)
+[19:08:45:954]: recreated: table(16.8.2022)
+[19:08:46:075]: pulled Website: .../f2/001.htm
+[19:08:46:092]: filled: table(16.8.2022) with f2
+[19:08:46:093]: updated: table(manger/16.8.2022) with f2
+[19:08:46:214]: connection commited and closed
+
+-------[(19:11:27) 14.08.2022 ]-------
+[19:11:27:844]: connection opend: daten , created cursor
+[19:11:27:987]: pulled Website: .../f1/001.htm
+[19:11:28:002]: found: table(manager)
+[19:11:28:002]: found: table(15.8.2022)
+[19:11:29:153]: droped: table(15.8.2022)
+[19:11:29:253]: recreated: table(15.8.2022)
+[19:11:29:379]: pulled Website: .../f1/001.htm
+[19:11:29:397]: filled: table(15.8.2022) with f1
+[19:11:29:398]: updated: table(manger/15.8.2022) with f1
+[19:11:29:510]: pulled Website: .../f2/001.htm
+[19:11:29:523]: found: table(manager)
+[19:11:29:523]: found: table(16.8.2022)
+[19:11:29:524]: droped: table(16.8.2022)
+[19:11:29:524]: recreated: table(16.8.2022)
+[19:11:29:641]: pulled Website: .../f2/001.htm
+[19:11:29:658]: filled: table(16.8.2022) with f2
+[19:11:29:659]: updated: table(manger/16.8.2022) with f2
+[19:11:29:770]: connection commited and closed
+
+-------[(19:11:27) 14.08.2022 ]-------
+[19:11:34:775]: connection opend: daten , created cursor
+[19:11:34:888]: pulled Website: .../f1/001.htm
+[19:11:34:902]: found: table(manager)
+[19:11:34:902]: found: table(15.8.2022)
+[19:11:35:127]: droped: table(15.8.2022)
+[19:11:35:243]: recreated: table(15.8.2022)
+[19:11:35:361]: pulled Website: .../f1/001.htm
+[19:11:35:379]: filled: table(15.8.2022) with f1
+[19:11:35:379]: updated: table(manger/15.8.2022) with f1
+[19:11:35:495]: pulled Website: .../f2/001.htm
+[19:11:35:508]: found: table(manager)
+[19:11:35:508]: found: table(16.8.2022)
+[19:11:35:509]: droped: table(16.8.2022)
+[19:11:35:509]: recreated: table(16.8.2022)
+[19:11:35:628]: pulled Website: .../f2/001.htm
+[19:11:35:645]: filled: table(16.8.2022) with f2
+[19:11:35:646]: updated: table(manger/16.8.2022) with f2
+[19:11:35:760]: connection commited and closed
+
+-------[(19:11:27) 14.08.2022 ]-------
+[19:11:40:770]: connection opend: daten , created cursor
+[19:11:40:891]: pulled Website: .../f1/001.htm
+[19:11:40:904]: found: table(manager)
+[19:11:40:904]: found: table(15.8.2022)
+[19:11:41:191]: droped: table(15.8.2022)
+[19:11:41:299]: recreated: table(15.8.2022)
+[19:11:41:416]: pulled Website: .../f1/001.htm
+[19:11:41:435]: filled: table(15.8.2022) with f1
+[19:11:41:436]: updated: table(manger/15.8.2022) with f1
+[19:11:41:570]: pulled Website: .../f2/001.htm
+[19:11:41:584]: found: table(manager)
+[19:11:41:584]: found: table(16.8.2022)
+[19:11:41:584]: droped: table(16.8.2022)
+[19:11:41:584]: recreated: table(16.8.2022)
+[19:11:41:703]: pulled Website: .../f2/001.htm
+[19:11:41:721]: filled: table(16.8.2022) with f2
+[19:11:41:722]: updated: table(manger/16.8.2022) with f2
+[19:11:41:999]: connection commited and closed
+
+-------[(19:11:27) 14.08.2022 ]-------
+[19:11:47:014]: connection opend: daten , created cursor
+[19:11:47:143]: pulled Website: .../f1/001.htm
+[19:11:47:159]: found: table(manager)
+[19:11:47:159]: found: table(15.8.2022)
+[19:11:47:806]: droped: table(15.8.2022)
+[19:11:47:905]: recreated: table(15.8.2022)
+[19:11:48:024]: pulled Website: .../f1/001.htm
+[19:11:48:042]: filled: table(15.8.2022) with f1
+[19:11:48:043]: updated: table(manger/15.8.2022) with f1
+[19:11:48:161]: pulled Website: .../f2/001.htm
+[19:11:48:175]: found: table(manager)
+[19:11:48:175]: found: table(16.8.2022)
+[19:11:48:175]: droped: table(16.8.2022)
+[19:11:48:175]: recreated: table(16.8.2022)
+[19:11:48:302]: pulled Website: .../f2/001.htm
+[19:11:48:323]: filled: table(16.8.2022) with f2
+[19:11:48:324]: updated: table(manger/16.8.2022) with f2
+[19:11:48:430]: connection commited and closed
+
+-------[(19:11:27) 14.08.2022 ]-------
+[19:11:53:441]: connection opend: daten , created cursor
+[19:11:53:557]: pulled Website: .../f1/001.htm
+[19:11:53:570]: found: table(manager)
+[19:11:53:570]: found: table(15.8.2022)
+[19:11:54:411]: droped: table(15.8.2022)
+[19:11:54:519]: recreated: table(15.8.2022)
+[19:11:54:636]: pulled Website: .../f1/001.htm
+[19:11:54:654]: filled: table(15.8.2022) with f1
+[19:11:54:655]: updated: table(manger/15.8.2022) with f1
+[19:11:54:789]: pulled Website: .../f2/001.htm
+[19:11:54:804]: found: table(manager)
+[19:11:54:804]: found: table(16.8.2022)
+[19:11:54:805]: droped: table(16.8.2022)
+[19:11:54:805]: recreated: table(16.8.2022)
+[19:11:54:923]: pulled Website: .../f2/001.htm
+[19:11:54:940]: filled: table(16.8.2022) with f2
+[19:11:54:941]: updated: table(manger/16.8.2022) with f2
+[19:11:55:053]: connection commited and closed
+
+-------[(19:11:27) 14.08.2022 ]-------
+[19:12:00:069]: connection opend: daten , created cursor
+[19:12:00:193]: pulled Website: .../f1/001.htm
+[19:12:00:206]: found: table(manager)
+[19:12:00:206]: found: table(15.8.2022)
+[19:12:01:584]: droped: table(15.8.2022)
+[19:12:01:700]: recreated: table(15.8.2022)
+[19:12:01:826]: pulled Website: .../f1/001.htm
+[19:12:01:844]: filled: table(15.8.2022) with f1
+[19:12:01:845]: updated: table(manger/15.8.2022) with f1
+[19:12:01:963]: pulled Website: .../f2/001.htm
+[19:12:01:976]: found: table(manager)
+[19:12:01:976]: found: table(16.8.2022)
+[19:12:01:976]: droped: table(16.8.2022)
+[19:12:01:977]: recreated: table(16.8.2022)
+[19:12:02:091]: pulled Website: .../f2/001.htm
+[19:12:02:107]: filled: table(16.8.2022) with f2
+[19:12:02:108]: updated: table(manger/16.8.2022) with f2
+[19:12:02:217]: connection commited and closed
+
+-------[(19:11:27) 14.08.2022 ]-------
+[19:12:07:225]: connection opend: daten , created cursor
+[19:12:07:338]: pulled Website: .../f1/001.htm
+[19:12:07:351]: found: table(manager)
+[19:12:07:351]: found: table(15.8.2022)
+[19:12:07:640]: droped: table(15.8.2022)
+[19:12:07:731]: recreated: table(15.8.2022)
+[19:12:07:851]: pulled Website: .../f1/001.htm
+[19:12:07:870]: filled: table(15.8.2022) with f1
+[19:12:07:870]: updated: table(manger/15.8.2022) with f1
+[19:12:08:002]: pulled Website: .../f2/001.htm
+[19:12:08:015]: found: table(manager)
+[19:12:08:015]: found: table(16.8.2022)
+[19:12:08:015]: droped: table(16.8.2022)
+[19:12:08:015]: recreated: table(16.8.2022)
+[19:12:08:133]: pulled Website: .../f2/001.htm
+[19:12:08:150]: filled: table(16.8.2022) with f2
+[19:12:08:151]: updated: table(manger/16.8.2022) with f2
+[19:12:08:273]: connection commited and closed
+
+-------[(19:11:27) 14.08.2022 ]-------
+[19:12:13:281]: connection opend: daten , created cursor
+[19:12:13:404]: pulled Website: .../f1/001.htm
+[19:12:13:416]: found: table(manager)
+[19:12:13:416]: found: table(15.8.2022)
+[19:12:13:537]: droped: table(15.8.2022)
+[19:12:13:638]: recreated: table(15.8.2022)
+[19:12:13:748]: pulled Website: .../f1/001.htm
+[19:12:13:765]: filled: table(15.8.2022) with f1
+[19:12:13:766]: updated: table(manger/15.8.2022) with f1
+[19:12:13:880]: pulled Website: .../f2/001.htm
+[19:12:13:893]: found: table(manager)
+[19:12:13:893]: found: table(16.8.2022)
+[19:12:13:893]: droped: table(16.8.2022)
+[19:12:13:894]: recreated: table(16.8.2022)
+[19:12:14:020]: pulled Website: .../f2/001.htm
+[19:12:14:038]: filled: table(16.8.2022) with f2
+[19:12:14:039]: updated: table(manger/16.8.2022) with f2
+[19:12:14:146]: connection commited and closed
+
+-------[(19:11:27) 14.08.2022 ]-------
+[19:12:19:151]: connection opend: daten , created cursor
+[19:12:19:271]: pulled Website: .../f1/001.htm
+[19:12:19:286]: found: table(manager)
+[19:12:19:286]: found: table(15.8.2022)
+[19:12:19:694]: droped: table(15.8.2022)
+[19:12:19:785]: recreated: table(15.8.2022)
+[19:12:19:900]: pulled Website: .../f1/001.htm
+[19:12:19:917]: filled: table(15.8.2022) with f1
+[19:12:19:918]: updated: table(manger/15.8.2022) with f1
+[19:12:20:046]: pulled Website: .../f2/001.htm
+[19:12:20:059]: found: table(manager)
+[19:12:20:059]: found: table(16.8.2022)
+[19:12:20:059]: droped: table(16.8.2022)
+[19:12:20:059]: recreated: table(16.8.2022)
+[19:12:20:172]: pulled Website: .../f2/001.htm
+[19:12:20:190]: filled: table(16.8.2022) with f2
+[19:12:20:191]: updated: table(manger/16.8.2022) with f2
+[19:12:20:302]: connection commited and closed
+
+-------[(19:11:27) 14.08.2022 ]-------
+[19:12:25:315]: connection opend: daten , created cursor
+[19:12:25:432]: pulled Website: .../f1/001.htm
+[19:12:25:445]: found: table(manager)
+[19:12:25:445]: found: table(15.8.2022)
+[19:12:25:625]: droped: table(15.8.2022)
+[19:12:25:733]: recreated: table(15.8.2022)
+[19:12:25:850]: pulled Website: .../f1/001.htm
+[19:12:25:868]: filled: table(15.8.2022) with f1
+[19:12:25:869]: updated: table(manger/15.8.2022) with f1
+[19:12:25:994]: pulled Website: .../f2/001.htm
+[19:12:26:007]: found: table(manager)
+[19:12:26:007]: found: table(16.8.2022)
+[19:12:26:007]: droped: table(16.8.2022)
+[19:12:26:007]: recreated: table(16.8.2022)
+[19:12:26:122]: pulled Website: .../f2/001.htm
+[19:12:26:139]: filled: table(16.8.2022) with f2
+[19:12:26:140]: updated: table(manger/16.8.2022) with f2
+[19:12:26:458]: connection commited and closed
+
+-------[(19:11:27) 14.08.2022 ]-------
+[19:12:31:462]: connection opend: daten , created cursor
+[19:12:31:582]: pulled Website: .../f1/001.htm
+[19:12:31:596]: found: table(manager)
+[19:12:31:596]: found: table(15.8.2022)
+[19:12:31:690]: droped: table(15.8.2022)
+[19:12:31:972]: recreated: table(15.8.2022)
+[19:12:32:090]: pulled Website: .../f1/001.htm
+[19:12:32:108]: filled: table(15.8.2022) with f1
+[19:12:32:108]: updated: table(manger/15.8.2022) with f1
+[19:12:32:231]: pulled Website: .../f2/001.htm
+[19:12:32:248]: found: table(manager)
+[19:12:32:248]: found: table(16.8.2022)
+[19:12:32:248]: droped: table(16.8.2022)
+[19:12:32:249]: recreated: table(16.8.2022)
+[19:12:32:371]: pulled Website: .../f2/001.htm
+[19:12:32:390]: filled: table(16.8.2022) with f2
+[19:12:32:391]: updated: table(manger/16.8.2022) with f2
+[19:12:32:490]: connection commited and closed
+
+-------[(19:12:39) 14.08.2022 ]-------
+[19:12:39:199]: connection opend: daten , created cursor
+[19:12:39:336]: pulled Website: .../f1/001.htm
+[19:12:39:350]: found: table(manager)
+[19:12:39:350]: found: table(15.8.2022)
+[19:12:39:453]: droped: table(15.8.2022)
+[19:12:39:553]: recreated: table(15.8.2022)
+[19:12:39:673]: pulled Website: .../f1/001.htm
+[19:12:39:691]: filled: table(15.8.2022) with f1
+[19:12:39:692]: updated: table(manger/15.8.2022) with f1
+[19:12:39:815]: pulled Website: .../f2/001.htm
+[19:12:39:828]: found: table(manager)
+[19:12:39:828]: found: table(16.8.2022)
+[19:12:39:829]: droped: table(16.8.2022)
+[19:12:39:829]: recreated: table(16.8.2022)
+[19:12:39:957]: pulled Website: .../f2/001.htm
+[19:12:39:975]: filled: table(16.8.2022) with f2
+[19:12:39:976]: updated: table(manger/16.8.2022) with f2
+[19:12:40:079]: connection commited and closed
+
+-------[(19:12:39) 14.08.2022 ]-------
+[19:12:45:093]: connection opend: daten , created cursor
+[19:12:45:213]: pulled Website: .../f1/001.htm
+[19:12:45:226]: found: table(manager)
+[19:12:45:226]: found: table(15.8.2022)
+[19:12:45:884]: droped: table(15.8.2022)
+[19:12:45:984]: recreated: table(15.8.2022)
+[19:12:46:102]: pulled Website: .../f1/001.htm
+[19:12:46:120]: filled: table(15.8.2022) with f1
+[19:12:46:121]: updated: table(manger/15.8.2022) with f1
+[19:12:46:240]: pulled Website: .../f2/001.htm
+[19:12:46:254]: found: table(manager)
+[19:12:46:254]: found: table(16.8.2022)
+[19:12:46:254]: droped: table(16.8.2022)
+[19:12:46:254]: recreated: table(16.8.2022)
+[19:12:46:376]: pulled Website: .../f2/001.htm
+[19:12:46:392]: filled: table(16.8.2022) with f2
+[19:12:46:393]: updated: table(manger/16.8.2022) with f2
+[19:12:46:843]: connection commited and closed
+
+-------[(19:14:23) 14.08.2022 ]-------
+[19:14:23:163]: connection opend: daten , created cursor
+[19:14:23:307]: pulled Website: .../f1/001.htm
+[19:14:23:503]: created: table(manger)
+[19:14:23:602]: created: table(15.8.2022)
+[19:14:23:716]: pulled Website: .../f1/001.htm
+[19:14:23:735]: filled: table(15.8.2022) with f1
+[19:14:23:735]: filled: table(manger/15.8.2022) with f1
+[19:14:23:853]: pulled Website: .../f2/001.htm
+[19:14:23:866]: found: table(manager)
+[19:14:23:867]: created: table(16.8.2022)
+[19:14:23:981]: pulled Website: .../f2/001.htm
+[19:14:23:999]: filled: table(16.8.2022) with f2
+[19:14:23:999]: filled: table(manger/16.8.2022) with f2
+[19:14:24:110]: connection commited and closed
+
+-------[(19:14:23) 14.08.2022 ]-------
+[19:14:29:129]: connection opend: daten , created cursor
+[19:14:29:244]: pulled Website: .../f1/001.htm
+[19:14:29:257]: found: table(manager)
+[19:14:29:257]: found: table(15.8.2022)
+[19:14:29:559]: droped: table(15.8.2022)
+[19:14:29:659]: recreated: table(15.8.2022)
+[19:14:29:776]: pulled Website: .../f1/001.htm
+[19:14:29:794]: filled: table(15.8.2022) with f1
+[19:14:29:795]: updated: table(manger/15.8.2022) with f1
+[19:14:29:909]: pulled Website: .../f2/001.htm
+[19:14:29:922]: found: table(manager)
+[19:14:29:922]: found: table(16.8.2022)
+[19:14:29:923]: droped: table(16.8.2022)
+[19:14:29:923]: recreated: table(16.8.2022)
+[19:14:30:041]: pulled Website: .../f2/001.htm
+[19:14:30:058]: filled: table(16.8.2022) with f2
+[19:14:30:059]: updated: table(manger/16.8.2022) with f2
+[19:14:30:175]: connection commited and closed
+
+-------[(19:14:23) 14.08.2022 ]-------
+[19:14:35:184]: connection opend: daten , created cursor
+[19:14:35:296]: pulled Website: .../f1/001.htm
+[19:14:35:309]: found: table(manager)
+[19:14:35:309]: found: table(15.8.2022)
+[19:14:35:399]: droped: table(15.8.2022)
+[19:14:35:498]: recreated: table(15.8.2022)
+[19:14:35:617]: pulled Website: .../f1/001.htm
+[19:14:35:635]: filled: table(15.8.2022) with f1
+[19:14:35:636]: updated: table(manger/15.8.2022) with f1
+[19:14:35:750]: pulled Website: .../f2/001.htm
+[19:14:35:763]: found: table(manager)
+[19:14:35:763]: found: table(16.8.2022)
+[19:14:35:764]: droped: table(16.8.2022)
+[19:14:35:764]: recreated: table(16.8.2022)
+[19:14:35:878]: pulled Website: .../f2/001.htm
+[19:14:35:895]: filled: table(16.8.2022) with f2
+[19:14:35:896]: updated: table(manger/16.8.2022) with f2
+[19:14:35:990]: connection commited and closed
+
+-------[(19:15:00) 14.08.2022 ]-------
+[19:15:00:334]: connection opend: daten , created cursor
+[19:15:00:489]: pulled Website: .../f1/001.htm
+[19:15:00:506]: found: table(manager)
+[19:15:00:506]: found: table(15.8.2022)
+[19:15:00:656]: droped: table(15.8.2022)
+[19:15:00:748]: recreated: table(15.8.2022)
+[19:15:00:870]: pulled Website: .../f1/001.htm
+[19:15:00:888]: filled: table(15.8.2022) with f1
+[19:15:00:889]: updated: table(manger/15.8.2022) with f1
+[19:15:01:005]: pulled Website: .../f2/001.htm
+[19:15:01:018]: found: table(manager)
+[19:15:01:018]: found: table(16.8.2022)
+[19:15:01:018]: droped: table(16.8.2022)
+[19:15:01:018]: recreated: table(16.8.2022)
+[19:15:01:137]: pulled Website: .../f2/001.htm
+[19:15:01:155]: filled: table(16.8.2022) with f2
+[19:15:01:155]: updated: table(manger/16.8.2022) with f2
+[19:15:01:264]: connection commited and closed
+
+-------[(19:15:00) 14.08.2022 ]-------
+[19:15:06:269]: connection opend: daten , created cursor
+[19:15:06:396]: pulled Website: .../f1/001.htm
+[19:15:06:409]: found: table(manager)
+[19:15:06:409]: found: table(15.8.2022)
+[19:15:06:704]: droped: table(15.8.2022)
+[19:15:06:820]: recreated: table(15.8.2022)
+[19:15:06:941]: pulled Website: .../f1/001.htm
+[19:15:06:959]: filled: table(15.8.2022) with f1
+[19:15:06:959]: updated: table(manger/15.8.2022) with f1
+[19:15:07:077]: pulled Website: .../f2/001.htm
+[19:15:07:091]: found: table(manager)
+[19:15:07:091]: found: table(16.8.2022)
+[19:15:07:091]: droped: table(16.8.2022)
+[19:15:07:091]: recreated: table(16.8.2022)
+[19:15:07:206]: pulled Website: .../f2/001.htm
+[19:15:07:223]: filled: table(16.8.2022) with f2
+[19:15:07:224]: updated: table(manger/16.8.2022) with f2
+[19:15:07:328]: connection commited and closed
+
+-------[(19:15:00) 14.08.2022 ]-------
+[19:15:12:341]: connection opend: daten , created cursor
+[19:15:12:460]: pulled Website: .../f1/001.htm
+[19:15:12:473]: found: table(manager)
+[19:15:12:473]: found: table(15.8.2022)
+[19:15:12:577]: droped: table(15.8.2022)
+[19:15:12:668]: recreated: table(15.8.2022)
+[19:15:12:784]: pulled Website: .../f1/001.htm
+[19:15:12:802]: filled: table(15.8.2022) with f1
+[19:15:12:803]: updated: table(manger/15.8.2022) with f1
+[19:15:12:921]: pulled Website: .../f2/001.htm
+[19:15:12:934]: found: table(manager)
+[19:15:12:934]: found: table(16.8.2022)
+[19:15:12:934]: droped: table(16.8.2022)
+[19:15:12:934]: recreated: table(16.8.2022)
+[19:15:13:052]: pulled Website: .../f2/001.htm
+[19:15:13:069]: filled: table(16.8.2022) with f2
+[19:15:13:069]: updated: table(manger/16.8.2022) with f2
+[19:15:13:159]: connection commited and closed
+
+-------[(19:15:00) 14.08.2022 ]-------
+[19:15:18:176]: connection opend: daten , created cursor
+[19:15:18:294]: pulled Website: .../f1/001.htm
+[19:15:18:308]: found: table(manager)
+[19:15:18:308]: found: table(15.8.2022)
+[19:15:18:599]: droped: table(15.8.2022)
+[19:15:18:716]: recreated: table(15.8.2022)
+[19:15:18:835]: pulled Website: .../f1/001.htm
+[19:15:18:853]: filled: table(15.8.2022) with f1
+[19:15:18:853]: updated: table(manger/15.8.2022) with f1
+[19:15:18:975]: pulled Website: .../f2/001.htm
+[19:15:18:988]: found: table(manager)
+[19:15:18:988]: found: table(16.8.2022)
+[19:15:18:989]: droped: table(16.8.2022)
+[19:15:18:989]: recreated: table(16.8.2022)
+[19:15:19:113]: pulled Website: .../f2/001.htm
+[19:15:19:130]: filled: table(16.8.2022) with f2
+[19:15:19:130]: updated: table(manger/16.8.2022) with f2
+[19:15:19:233]: connection commited and closed
+
+-------[(19:17:54) 14.08.2022 ]-------
+[19:17:54:021]: connection opend: daten , created cursor
+[19:17:54:213]: pulled Website: .../f1/001.htm
+[19:17:54:227]: found: table(manager)
+[19:17:54:227]: found: table(15.8.2022)
+[19:17:54:327]: droped: table(15.8.2022)
+[19:17:54:427]: recreated: table(15.8.2022)
+[19:17:54:543]: pulled Website: .../f1/001.htm
+[19:17:54:561]: filled: table(15.8.2022) with f1
+[19:17:54:562]: updated: table(manger/15.8.2022) with f1
+[19:17:54:686]: pulled Website: .../f2/001.htm
+[19:17:54:699]: found: table(manager)
+[19:17:54:699]: found: table(16.8.2022)
+[19:17:54:699]: droped: table(16.8.2022)
+[19:17:54:699]: recreated: table(16.8.2022)
+[19:17:54:822]: pulled Website: .../f2/001.htm
+[19:17:54:839]: filled: table(16.8.2022) with f2
+[19:17:54:839]: updated: table(manger/16.8.2022) with f2
+[19:17:54:960]: connection commited and closed
+
+-------[(19:18:10) 14.08.2022 ]-------
+[19:18:10:321]: connection opend: daten , created cursor
+[19:18:10:463]: pulled Website: .../f1/001.htm
+[19:18:10:478]: found: table(manager)
+[19:18:10:478]: found: table(15.8.2022)
+[19:18:10:571]: droped: table(15.8.2022)
+[19:18:10:662]: recreated: table(15.8.2022)
+[19:18:10:777]: pulled Website: .../f1/001.htm
+[19:18:10:797]: filled: table(15.8.2022) with f1
+[19:18:10:797]: updated: table(manger/15.8.2022) with f1
+[19:18:10:923]: pulled Website: .../f2/001.htm
+[19:18:10:940]: found: table(manager)
+[19:18:10:940]: found: table(16.8.2022)
+[19:18:10:940]: droped: table(16.8.2022)
+[19:18:10:940]: recreated: table(16.8.2022)
+[19:18:11:062]: pulled Website: .../f2/001.htm
+[19:18:11:078]: filled: table(16.8.2022) with f2
+[19:18:11:078]: updated: table(manger/16.8.2022) with f2
+[19:18:11:171]: connection commited and closed
+

@@ -1,4 +1,9 @@
-tage = ["Montag","Dienstag","Mitwoch","Donnerstag","Freitag"]
+#delay between website rips in sekonds
+ripdelay=500
+
+#days
+days = ["Montag","Dienstag","Mitwoch","Donnerstag","Freitag"] 
+#blöcke = [dict(start="HH:MM",end="HH:MM","text=displayedtext(1.Block (1-2))",block=blockid)]
 blöcke = [
     dict(
         start="8:30",
@@ -32,8 +37,7 @@ blöcke = [
     ),
 ]
 
-
-#makes string for creating a table CREATE TABLE blöcke (Anfang text,Ende text,id text)
+#sets the shema of db tables nameoftable= dict(Collum1="type")
 shema=dict(
     blöcke = dict(
         Anfang="text",
@@ -58,14 +62,5 @@ shema=dict(
     tage = dict(
         Tag="text",
     ),
-
 )
 
-def table_create(table):
-    string=''
-    if shema[table]!='{}':
-        for i in shema[table]:
-            string+=i+" "+shema[table].get(i)+","    
-    else:
-        string=","
-    return f"CREATE TABLE {table}({string[:-1]})"
